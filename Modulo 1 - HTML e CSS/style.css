@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+}
+
+/* tabelas */
+
+.tableTabelas{
+    border: none;
+}
+.tableTabela > td {
+    border: none;
+}
+.tableTabela > tr{
+    border: none;
+}
+
+/* bordas */
+
+.testeDiv1{
+    margin: 10px;
+    border: 5px dotted;  
+    border-color: darkorange;
+    width: 50px;
+    position: absolute;
+    right: 0%;
+}
+.testeDiv2{
+    margin: 10px;
+    border: 5px dashed;
+    border-color: darkmagenta;
+    width: 50px;
+    position: absolute;
+    right: 50%;
+}
+.testeDiv3{
+    margin: 10px;
+    border: 5px solid;
+    border-color: darkgreen;
+    width: 50px;
+    position: absolute;
+}
+.fixed{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+/* Hover */
+
+.testeHover{
+    width: 200px;
+    height: 200px;
+    background-color: deeppink;
+    color: white;
+}
+.testeHover:hover{
+    background-color: yellow;
+    color: violet;
+}
+
+/* Eventos */
+
+.testeEvento{
+    display: block;
+    width: 150px;
+    height: 30px;
+    background-color: tomato;
+    color: yellow;
+}
+
+/* Formatação de texto CSS */
+
+.texto{
+    width: 500;
+    height: 200;
+    background-color: yellow;
+    color: #ff0000; /* cor da fonte */
+    font-size: 25px; /* tamanho do texto */
+    font-family: Helvetica, Verdana, Arial, 'Times New Roman'; /* altera a fonte do texto */
+    font-weight: bold; /*tamanho da espessura do texto */
+    text-align: center; /*alinhamento do texto*/
+    text-transform: uppercase;/* deixa o texto todo em caixa alta */
+    /*text-transform: lowercase; deixa o texto todo em caixa baixa */
+    text-decoration: underline; /* deixa o texto sublinhado */
+    margin-bottom: 10px;
+
+}
+
+/* Box Model */
+
+.textoBoxModel{
+    width: 500;
+    height: 200;
+    background-color: yellow;
+    color: #ff0000; /* cor da fonte */
+    font-size: 25px; /* tamanho do texto */
+    font-family: Helvetica, Verdana, Arial, 'Times New Roman'; /* altera a fonte do texto */
+    font-weight: bold; /*tamanho da espessura do texto */
+    text-align: center; /*alinhamento do texto*/
+    text-transform: uppercase;/* deixa o texto todo em caixa alta */
+    /*text-transform: lowercase; deixa o texto todo em caixa baixa */
+    text-decoration: underline; /* deixa o texto sublinhado */
+
+    margin: auto;
+    margin-top: 20px; /* margin é a borda exterior do elemento */
+    padding-top: 20px; /* padding é a borda interior do elemento */
+}
+
+/* elementos flutuantes */
+
+.flutuante{
+    /*position: absolute; /* deixa o elemento independente da pagina, voce pode colocar ele onde quiser na pagina */
+    position: fixed; /* ele fica fixo onde voce posicionar ele mesmo que role a pagina */
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    
+}
+
+/* Elementos inline, block e inline-block */
+
+.elementosIBI{
+    width: 500;
+    height: 200;
+    background-color: yellow;
+    color: #ff0000; /* cor da fonte */
+    font-size: 25px; /* tamanho do texto */
+    font-family: Helvetica, Verdana, Arial, 'Times New Roman'; /* altera a fonte do texto */
+    font-weight: bold; /*tamanho da espessura do texto */
+    text-align: center; /*alinhamento do texto*/
+    text-transform: uppercase;/* deixa o texto todo em caixa alta */
+    /*text-transform: lowercase; deixa o texto todo em caixa baixa */
+    text-decoration: underline; /* deixa o texto sublinhado */
+    margin-bottom: 10px;
+
+    display: none; /* é o jeito de como o elemento vai aparecer na tela ou se ele vai aparecer na tela */
+    display: inline; /* vai exibir entre as linhas tirando a propriedade de bloco */
+    display: inline-block; /* vai exibir entre as linhas porem mantem as propriedades de bloco */
+}
+
+/* formatando links */
+
+a{
+    font-size: 30px;/*altera o tamanho da fonte*/
+    color: #000000; /*muda a cor da fonte */
+    text-decoration: none;/*tira o sublinhado*/
+}
+a:hover{
+    text-decoration: underline; /*coloca sublinhado apenas quando o mouse estiver em cima */
+    background-color: #ffff00;/* muda a cor do texto apenas quando mouse estiver em cima*/
+    text-transform: uppercase; /*coloca o texto todo em caixa alta quando o mouse estiver em cima*/
+}

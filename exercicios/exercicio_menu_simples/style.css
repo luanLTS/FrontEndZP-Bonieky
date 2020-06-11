@@ -1,0 +1,17 @@
+a{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+}
+div{
+    
+    background-color: #0000ff;
+}
+a:hover{
+    background-color: #ffffff;
+
+    color:#0000ff;
+}
+body{
+    margin: 0;
+}

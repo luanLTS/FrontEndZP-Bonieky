@@ -1,0 +1,318 @@
+<html>
+
+<head>
+    <title>Minha Página</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Paragrafos</h1>
+
+    <p>
+        Teste usando a </br> Tag P.
+    </p>
+    <pre>
+            Este é um teste usando a Tag 
+            pre em html.
+        </pre>
+    </br>
+
+    <h1>Formatacao de texto</h1>
+
+    <p>
+        Este é um <b>Teste</b> de <u>formatação de texto,</u> <i>utilizando as Tags</i> que vi no curso do
+        <strike>Bonieky</strike>.</br>
+        10<sup>2</sup> = 100.<br>
+        O numero atomico do oxienio é O<sub>16</sub>.
+    </p>
+
+    <h1>Listas ordenadas e não ordenadas</h1>
+
+    <h2>não ordenadas</h2>
+
+    <ul style="list-style-type: disc;">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <ul style="list-style-type: circle;">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <ul style="list-style-type: square;">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <ul style="list-style-type: none;">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Ordenadas</h2>
+
+    <ol type="1">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+
+    <ol type="A">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+
+    <ol type="a">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+
+    <ol type="I">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+
+    <ol type="i">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+
+    <h1>Imagens</h1>
+
+    <h2>Imagem com caminho local</h2>
+
+    <img src="imagens/et1.jpg" width="" height="" alt="E.T" title="E.T">
+    <!-- SRC = caminho da imagem pode ser tambem um link, WIDTH = largura da imagem, HEIGHT = altura da imagem,
+    ALT = titulo antes da imagem ser carregada, TITLE = titulo quando o mouse parar em cima da imagem -->
+
+    <h2>Imagem com link</h2>
+    <img src="https://www.torredevigilancia.com/wp-content/uploads/2019/10/coringa-55.jpg" width="200" height="175"
+        alt="Coringa" title="Coringa">
+
+    <h1>Links</h1>
+
+    <a href="https://www.google.com.br">Clique para abrir o site do Google</a><br />
+    <a href="doc.txt" download>Clique para baixar o arquivo</a>
+
+    <h1>Tabelas</h1>
+
+    <table border="5" class="tableTabelas">
+        <tr bgcolor="gray" align="center">
+            <td rowspan="5" width="30">2<br />0<br />2<br />0</td>
+            <td colspan="2">Tabela de navegadores mais usados</td>
+        </tr>
+        <tr align="center">
+            <td>navegador</td>
+            <td>% de uso</td>
+        </tr>
+        <tr align="center">
+            <td>Google Chrome</td>
+            <td>65%</td>
+        </tr>
+        <tr align="center">
+            <td>Mozilla Firefox</td>
+            <td>25%%</td>
+        </tr>
+        <tr align="center">
+            <td>Safari</td>
+            <td>10%%</td>
+        </tr>
+    </table>
+
+    <h1>Formularios</h1>
+
+    <h2>sem tabela</h2>
+
+    <form method="POST">
+        <label for="nome">Digite seu nome:</label>
+        <input type="text" name="nome" id="nome"><br />
+
+        <label for="idade">Digite sua idade:</label>
+        <input type="text" name="idade" id="idade"><br />
+
+        <label for="diaNascimento">Dia</label>
+        <select name="diaNascimento" id="diaNascimento">
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+        </select>
+
+        <label for="mesNascimento">Mês</label>
+        <select name="mesNascimento" id="mesNascimento">
+            <option value="Janeiro">Janeiro</option>
+            <option value="Fevereiro">Fevereiro</option>
+            <option value="Março">Março</option>
+            <option value="Abril">Abril</option>
+            <option value="Maio">Maio</option>
+            <option value="Junho">Junho</option>
+        </select>
+
+
+
+        <label for="anoNascimento">Ano</label>
+        <select name="anoNascimento" id="anoNascimento">
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+        </select><br />
+
+        <textarea name="comentario" id="comentario" cols="30" rows="5"></textarea><br />
+
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>com tabelas</h2>
+
+    <form action="" method="POST">
+        <table border="5">
+            <tr>
+                <td>
+                    <label for="nome2">Digite seu nome:</label>
+                </td>
+                <td>
+                    <input type="text" name="nome2" id="nome2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="idade2">Digite sua idade:</label>
+                </td>
+                <td>
+                    <input type="text" name="idade2" id="idade2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="diaNascimento2">Dia</label>
+                    <select name="diaNascimento2" id="diaNascimento2">
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="mesNascimento2">Mês</label>
+                    <select name="mesNascimento2" id="mesNascimento2">
+                        <option value="Janeiro">Janeiro</option>
+                        <option value="Fevereiro">Fevereiro</option>
+                        <option value="Março">Março</option>
+                        <option value="Abril">Abril</option>
+                        <option value="Maio">Maio</option>
+                        <option value="Junho">Junho</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="anoNascimento2">Ano</label>
+                    <select name="anoNascimento2" id="anoNascimento2">
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                        <option value="2005">2005</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset" value="Limpar">
+                </td>
+                <td>
+                    <input type="submit" value="Enviar">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <h1>Iframe</h1>
+
+    <p>
+        <a href="imagens/et1.jpg" target="quadro">Clique para abrir a imagem 1</a>
+    </p>
+    <p>
+        <a href="https://www.torredevigilancia.com/wp-content/uploads/2019/10/coringa-55.jpg" target="quadro">Clique
+            para abrir a imagem 2</a>
+    </p>
+
+    <iframe src="" name="quadro" width="50%" height="500px"></iframe>
+
+    <h1>Divs e Span</h1>
+
+    <div style="background-color: aqua;">
+        Teste div
+    </div>
+    <span style="background-color: brown;color: #ffffff;">
+        Teste span
+    </span>
+
+    <h1>Bordas</h1>
+
+    <div class="fixed">
+        <div class="testeDiv1">Div 1 </div>
+        <div class="testeDiv2">Div 2 </div>
+        <div class="testeDiv3">Div 3 </div>
+    </div>
+    <h1>Hover</h1>
+
+    <div class="testeHover">
+        <p>Testando o efeito hover</p>
+        <p>passe o mouse aqui</p>
+
+    </div>
+
+    <h1>Eventos</h1>
+
+    <button name="onclick" onclick="teste1()">Clique aqui</button>
+
+    <p class="testeEvento" onmouseout="teste2(this)" onmouseover="teste3(this)">Passe o mouse </p>
+
+    <h1>Formatação de texto com CSS</h1>
+
+    <div class="texto">Este é um texto comum</div>
+
+    <h1>Box Model</h1>
+
+    <div class="textoBoxModel">Este é um texto comum</div>
+
+    <h1>Elemntos flutuantes</h1>
+
+    <div class="textoBoxModel">Teste elemento flutuantes</div>
+    <div class="textoBoxModel">Teste elemento flutuantes</div>
+    <div class="textoBoxModel flutuante">Teste elemento flutuantes fixed</div>
+
+    <h1>Elementos inline, block e inline-block</h1>
+
+    <div class="elementosIBI">Este é um texto comum</div>
+    <div class="elementosIBI">Este é um texto comum</div>
+
+    <h1>Formatando links</h1>
+
+    <a href="http://www.google.com">Clique aqui</a>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

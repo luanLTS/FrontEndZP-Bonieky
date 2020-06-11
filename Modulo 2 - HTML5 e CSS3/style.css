@@ -1,0 +1,25 @@
+footer{
+    background-color: #cccccc;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+nav{
+    background-color: #f8f88f;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+}
+section{
+    background-color: brown;
+    height: 100px;
+
+    margin-bottom: 10px;
+}
+LTS{
+    font-size: 20px;
+    color: #fff;
+    background-color: #00ff00;
+    display: block;
+    height: 110px;
+}

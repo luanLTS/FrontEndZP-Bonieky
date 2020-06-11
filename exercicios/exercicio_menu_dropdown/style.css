@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+    background-color: #00f;
+    margin: 0px;
+    padding: 0px;
+}
+.menu a{
+    display: block;
+    color: #fff;
+    padding: 10px;
+}
+.menu a:hover{
+    color: #00f;
+    background-color: #fff;
+}
+li{
+    list-style: none;
+}
+.b1, .b2, .b3 {
+    display: inline-block;
+}
+.menu .b2 > .sobre{
+    display: none;
+}
+.menu .b3 > .contatos{
+    display: none;
+}
+.menu .b3:hover > .contatos{
+    display: block;
+    position: absolute;
+    color: #fff;
+    background-color: #00f;
+}
+.menu .b2:hover > .sobre{
+    display: block;
+    position: absolute;
+    color: #fff;
+    background-color: #00f;
+}

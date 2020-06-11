@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: #fff;
+}
+.menu{
+    background-color: #77e61c;
+    margin: 0px;
+    padding: 0px;
+}
+.menu a{
+    color: #000000b0;
+    display: block;
+    padding: 10px;
+}
+.menu a:hover{
+    background-color: #625b5bb0;
+    color: #77e61c;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.subMenu{
+    position: absolute;
+    display: none;
+    min-width: 150px;
+}
+.menu li:hover .subMenu{
+    display: block;
+}
+.subMenu .menu li{
+    display: block;
+}
+.rodape{
+    position: fixed;
+    bottom: 1px;
+    left: 40%;
+}

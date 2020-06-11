@@ -1,0 +1,25 @@
+.menu{
+    background-color: #0000ff;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    height: 100%;
+}
+.menu a {
+    color: #ffffff;
+    display: block;
+    padding: 10px;
+}
+.menu a:hover {
+    color:#0000ff;
+    background-color: #ffffff;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+body{
+    margin: 0;
+}
+
+
