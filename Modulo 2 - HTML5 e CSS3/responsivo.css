@@ -1,0 +1,82 @@
+.topo {
+    width: 100%;
+    max-width: 800px;
+    height: 100px;
+    margin: auto;
+}
+
+.logo {
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: #AAA;
+}
+
+.menu {
+    width: 50%;
+    height: 100px;
+    float: right;
+    background-color: #BBB;
+}
+
+.corpo {
+    width: 100%;
+    max-width: 800px;
+    height: 300px;
+    background-color: #CCC;
+    margin: auto;
+}
+
+.rodape {
+    width: 100%;
+    max-width: 800px;
+    height: 200px;
+    background-color: #DDD;
+    margin: auto;
+}
+
+/* @media only screen and (min-width: 500px) and (max-width: 800px) {
+    .topo {
+        width: 400px;
+    }
+    .corpo {
+        width: 400px;
+    }
+    .rodape {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .topo {
+        width: 250px;
+        height: 200px;
+    }
+    .logo {
+        width: 100%;
+        height: 100px;
+    }
+    .menu {
+        width: 100%;
+        height: 100px;
+    }
+    .corpo {
+        width: 250px;
+    }
+    .rodape {
+        width: 250px;
+    }
+} */
+
+@media only screen and (max-width: 500px) {
+    .topo {
+        height: 200px;
+    }
+    .logo {
+        width: 100%;
+    }
+    .menu {
+        width: 100%;
+    }
+}
+

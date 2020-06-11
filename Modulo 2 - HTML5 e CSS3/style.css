@@ -23,3 +23,21 @@ LTS{
     display: block;
     height: 110px;
 }
+
+.response {
+    left: 100px;
+    width: 1000px;
+    height: 400px;
+    background-color: #000000;
+    color: #fff;
+}
+
+@media only screen and  (max-width:600px) {
+    .response {
+        background-color: #ff0f00;
+        color: #000000;
+        width: 200px;
+        height: 100px;
+
+    }
+}
