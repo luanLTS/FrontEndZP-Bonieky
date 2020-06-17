@@ -1,0 +1,22 @@
+@keyframes teste {
+    0% {background-color: blue;top: 0px;left: 0px;}
+    25% {background-color: darkorange;top: 0;left: 1700px;}
+    50% {background-color: red;top: 760px;left: 1700px;}
+    75% {background-color: lime;top: 760px;left: 0px;}
+    100% {background-color: blue;top: 0px;left: 0px;}    
+}
+
+.movimento {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    line-height: 100px;
+    /* chama os frames da animacao pelo nome */
+    animation-name: teste;
+    /* tempo que vai durar */
+    animation-duration: 5s;
+    /* quantas vezes vai repetir */
+    animation-iteration-count: infinite;
+}

@@ -8,8 +8,23 @@ form {
     margin: auto;
     padding: 20px;
     margin-top: 20px;
+    border-radius: 25px;
+    border-top-right-radius: 100px;
+    /* sombra em elementos */
+    box-shadow: 10px 10px 5px #000;
 }
 input {
     padding: 5px;
     font-size: 13px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+body {
+    margin: auto;
+    height: 1000px;
+    /*degrade- primeira posição é a direção de onde começa (em graus) e depois as cores que ele vai ter */
+    background: linear-gradient(45deg, blue, pink, violet,yellow,  orangered, red);
+}
+h1 {
+    font-size: 50px;
 }
