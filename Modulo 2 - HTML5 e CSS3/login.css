@@ -12,6 +12,10 @@ form {
     border-top-right-radius: 100px;
     /* sombra em elementos */
     box-shadow: 10px 10px 5px #000;
+    position: absolute;
+    top: 90px;
+    left: 750px;
+    z-index: 1;
 }
 input {
     padding: 5px;
@@ -23,8 +27,18 @@ body {
     margin: auto;
     height: 1000px;
     /*degrade- primeira posição é a direção de onde começa (em graus) e depois as cores que ele vai ter */
-    background: linear-gradient(45deg, blue, pink, violet,yellow,  orangered, red);
+    /* background: linear-gradient(45deg, blue, pink, violet,yellow,  orangered, red); */
 }
 h1 {
     font-size: 50px;
+}
+.teste {
+    position: fixed;
+    top: 0px;
+    left: 650px;
+    z-index: 0;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background: repeating-linear-gradient(-45deg, #ff009c, #5b146f);
 }
