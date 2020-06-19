@@ -101,3 +101,20 @@ LTS{
     text-shadow: 5px 5px 1px #bbbccc;
     font-size: 50px;
 }
+
+.transicao {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: white;
+    margin: auto;
+    margin-top: 100px;
+    transition: all 1s linear;
+    /* all: qualquer propriedade que for mudada.
+    1s : quantos segundos vai durar
+    linear: ela vai comecar e terminar em uma mesmo velocidade. */
+}
+.transicao:hover {
+    background-color: darkmagenta;
+    color: lawngreen;
+}

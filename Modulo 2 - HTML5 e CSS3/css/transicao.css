@@ -1,0 +1,16 @@
+.quadrado {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: white;
+    margin: auto;
+    margin-top: 100px;
+    transition: all 1s cubic-bezier(1, 0, 0, 1);
+    /* all: qualquer propriedade que for mudada.
+    1s : quantos segundos vai durar
+    linear: ela vai comecar e terminar em uma mesmo velocidade. */
+}
+.quadrado:hover {
+    background-color: darkmagenta;
+    color: lawngreen;
+}
