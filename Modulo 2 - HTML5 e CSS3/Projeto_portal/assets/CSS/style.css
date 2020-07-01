@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+/* ---------------------------------TOPO PRETO ----------------------------- */
+
+.topo {
+    height: 30px;
+    background-color: #333;
+}
+
+.topoConteudo {
+    margin: auto;
+    width: 100%;
+    max-width: 1040px;
+    height: 30px;
+}
+
+.topoEsquerda {
+    width: 50%;
+    height: 30px;
+    float: left;
+}
+.topoDireita {
+    width: 50%;
+    height: 30px;
+    float: right;
+    background-color: darkorchid;
+}
+
+.topoEsquerda ul {
+    margin: 0;
+    padding: 0;
+}
+
+.topoEsquerda li {
+    list-style: none;
+    display: inline;
+    line-height: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.topoEsquerda li:hover {
+    color: #1fa0bd;
+}
+
+.topoEsquerda li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.topoEsquerda li a:active {
+    color: #0000ff;
+}
+
+/* ---------------------------------TOPO PRETO ----------------------------- */
+
+/* ---------------------------------TOPO LOGO ----------------------------- */
+
+.topoPublicidade {
+    height: 100px;
+}
+
+.topoPublicidadeConteudo {
+    margin: auto;
+    width: 100%;
+    max-width: 1040px;
+    height: 100px;
+    background-color: indigo;
+}
+
+.logo {
+    width: 35%;
+    height: 100px;
+    background-color: salmon;
+    float: left;
+}
+
+.publi {
+    width: 65%;
+    height: 100px;
+    background-color: skyblue;
+    float: right;
+}
+
+/* ---------------------------------TOPO LOGO ----------------------------- */
+
+/* ---------------------------------TOPO MENU ----------------------------- */
+
+.menu {
+    height: 43px;
+    background-color: #ff0000;
+}
+
+.menuConteudo {
+    width: 100%;
+    max-width: 1040;
+    height: 43px;
+    float: left;
+}
+
+/* ---------------------------------TOPO MENU ----------------------------- */
