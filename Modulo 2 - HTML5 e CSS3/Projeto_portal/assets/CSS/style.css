@@ -25,7 +25,22 @@ body {
     width: 50%;
     height: 30px;
     float: right;
-    background-color: darkorchid;
+}
+
+.topoDireita a {
+    height: 28px;
+    margin-top: 2px;
+    float: right;
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+
+.topoDireita input {
+    width: 117px;
+    height: 23px;
+    outline: 0;
+    border-radius: 5px;
+    float: right;
 }
 
 .topoEsquerda ul {
@@ -67,20 +82,17 @@ body {
     width: 100%;
     max-width: 1040px;
     height: 100px;
-    background-color: indigo;
 }
 
 .logo {
     width: 35%;
     height: 100px;
-    background-color: salmon;
     float: left;
 }
 
 .publi {
     width: 65%;
     height: 100px;
-    background-color: skyblue;
     float: right;
 }
 
