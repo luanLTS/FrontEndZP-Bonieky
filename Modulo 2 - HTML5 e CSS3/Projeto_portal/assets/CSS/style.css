@@ -45,7 +45,7 @@ body {
 }
 
 .topoEsquerda li a:active {
-    color: #0000ff;
+    color: #3189a1;
 }
 
 .topoDireita {
@@ -157,3 +157,94 @@ body {
 }
 
 /* ---------------------------------TOPO MENU ----------------------------- */
+
+/* ---------------------------------ultimas noticias ----------------------------- */
+
+.ultimasNoticias {
+    height: 50px;
+}
+
+.ultimasNoticasInt {
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+}
+
+.ultimasNoticiasConteudo {
+    height: 28px;
+    border: solid 1px #CCC;
+    margin-top: 10px;
+}
+
+.ultimasNoticiasTitulo {
+    width: 174px;
+    height: 28px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 10px;
+    background-color: #ff0000;
+    display: inline-block;
+ }
+
+.ultimasNoticiasTexto {
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+/* --------------------------------- ultimas noticias ----------------------------- */
+
+/* --------------------------------- conteudo do portal ----------------------------- */
+
+.container {
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+}
+
+.conteudoDireita {
+    width: 270px;
+    float: right;
+    margin-left: 12px;
+}
+.conteudoEsquerda {
+    width: 754px;
+    min-height: 100px;
+    float: left;
+    background-color: darkcyan;
+}
+
+.widget {
+    border: solid 1px #CCC;
+    margin-bottom: 10px;
+}
+
+.widgetTitulo {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: #DDD;
+}
+
+.widgetConteudo {
+     text-align: center;
+     padding-top: 5px;
+     padding-bottom: 5px;
+}
+
+.noticiaItem {
+    font-size: 15px;
+    margin: 0px 10px;
+    padding: 10px 0px;
+    border-bottom: solid 1px #CCC;
+    text-align: left;
+}
+
+.noticiaItem a {
+    text-decoration: none;
+    color: #000;
+}
+/* --------------------------------- conteudo do portal ----------------------------- */
