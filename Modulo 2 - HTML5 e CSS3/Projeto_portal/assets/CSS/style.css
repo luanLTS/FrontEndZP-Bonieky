@@ -248,3 +248,27 @@ body {
     color: #000;
 }
 /* --------------------------------- conteudo do portal ----------------------------- */
+
+
+/* --------------------------------- conteudo do esquerda ----------------------------- */
+
+.slideshow {
+    height: 335px;
+    overflow: hidden;
+}
+
+.slideshowarea {
+    height: 335px;
+    width: 100000;
+}
+
+.slide {
+    width: 100%;
+    height: 335px;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* --------------------------------- conteudo do esquerda ----------------------------- */
