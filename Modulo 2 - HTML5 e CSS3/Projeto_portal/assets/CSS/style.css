@@ -259,11 +259,12 @@ body {
 
 .slideshowarea {
     height: 335px;
-    width: 100000;
+    width: 100000px;
+    transition: all 1s;
 }
 
 .slide {
-    width: 100%;
+    width: 753px;
     height: 335px;
     float: left;
     background-size: cover;
@@ -271,4 +272,36 @@ body {
     background-position: center;
 }
 
+.slideinfo {
+    height: 70px;
+    background-image: url('../images/slideshow_bg.png');
+    background-size: auto 70px;
+    margin-top: 265px;
+}
+.slideinfotitulo {
+    padding-top: 10px;
+    font-size: 30px;
+    color: #fff; 
+}
+
+.slideinfosubtitulo {
+    font-size: 18px;
+    color: #fff;
+}
+
+.slidebolinhas {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+}
+
+.bolinhas {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #BBB;
+    float:left;
+    margin-right: 5px;
+    cursor: pointer;
+}
 /* --------------------------------- conteudo do esquerda ----------------------------- */
